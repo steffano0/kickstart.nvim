@@ -11,6 +11,7 @@ return {
       'lua',
       'rust',
       'go',
+      'python',
       'luadoc',
       'markdown',
       'markdown_inline',
