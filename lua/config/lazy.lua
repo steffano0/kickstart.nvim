@@ -15,7 +15,7 @@ rtp:prepend(lazypath)
 -- Load plugins
 require('lazy').setup({
   { import = 'plugins' },
-  { import = 'plugins.kickstart' }, -- Keep kickstart plugins separate
+  { import = 'plugins.kickstart' },
 }, {
   ui = {
     icons = vim.g.have_nerd_font and {} or {
